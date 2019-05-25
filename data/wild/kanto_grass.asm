@@ -133,4 +133,40 @@
 	db 6, ZIGZAGOON
 	db 6, RATTATA
 
+	map_id ROUTE_3_SOUTH
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 5, JIGGLYPUFF
+	db 6, SPEAROW
+	db 6, RATTATA
+	db 7, NIDORAN_M
+	db 7, NIDORAN_F
+	db 7, SANDSHREW
+	db 7, JIGGLYPUFF
+	db 8, EKANS
+	db 8, ZIGZAGOON
+	db 9, MANKEY
+	; day
+	db 5, JIGGLYPUFF
+	db 6, SPEAROW
+	db 6, RATTATA
+	db 7, NIDORAN_M
+	db 7, NIDORAN_F
+	db 7, SANDSHREW
+	db 7, JIGGLYPUFF
+	db 8, EKANS
+	db 8, ZIGZAGOON
+	db 9, MANKEY
+	; nite
+	db 5, JIGGLYPUFF
+	db 6, HOOTHOOT
+	db 6, CLEFAIRY
+	db 6, RATTATA
+	db 7, NIDORAN_M
+	db 7, NIDORAN_F
+	db 7, SANDSHREW
+	db 7, JIGGLYPUFF
+	db 8, EKANS
+	db 8, ZIGZAGOON
+
 	db -1 ; end
